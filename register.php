@@ -22,12 +22,16 @@
 		<body>
 			<div style="padding-top: 10%;padding-left: 35%;">
 			<form action="register.php" method="POST">
-				<input type="text" name="user" placeholder="Username">
-				<input type="password" name="pass" placeholder="Password">
-				<input type="text" name="mail" placeholder="E-mail">
+				<h2>Register</h2>
+				<input type="text" name="user" placeholder="Username"><br>
+				<input type="password" name="pass" placeholder="Password"><br>
+				<input type="text" name="mail" placeholder="E-mail"><br>
 				<input type="submit" value="Populate">
 
 			</form>
 		</div>
 		</body>
 		</html>
+		<?php
+	}
+?>
